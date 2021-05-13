@@ -83,16 +83,6 @@ frame1 = Frame(root).place(x=300, y=250)
 
 tex = Text().place(x=10, y=200, width=313, height=180)
 
-# filetypes = (
-#     ('text files', '*.txt'),
-#     ('all files', '*.*')
-# )
 
-# tf = fd.askopenfilename(filetypes=filetypes, title="open file")
-# # tf.insert(END,tf)
-# tf = open(tf, 'r')
-# data = tf.read()
-# tex.insert(END,"data")
-# tf.close()
 
 root.mainloop()
